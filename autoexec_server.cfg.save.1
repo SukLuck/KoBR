@@ -1,0 +1,430 @@
+sv_port 8304
+
+sv_name "[BETA]KoBR BRA - Gores Server [C⚛smo Network] by: SukLuck"
+
+sv_rcon_password "adm2521"
+sv_rcon_mod_password "mod2521"
+sv_rcon_helper_password "helper2521"
+
+sv_use_sql 1
+exec mysql.cfg
+
+add_sqlserver r database_name "prefix" "user" "password" "localhost" "3306" 1
+add_sqlserver w database_name "prefix" "user" "password" "localhost" "3306" 1
+
+
+sv_map ""
+
+sv_test_cmds 0
+
+sv_register 1
+
+logfile "autoexec_server.log"
+
+sv_score_folder "records"
+
+sv_max_clients 64
+
+sv_max_clients_per_ip 4
+
+sv_pauseable 1
+
+sv_rank_cheats 1
+
+sv_welcome "Bem Vindo ao Servidor KoBR - Gores Server [C⚛smo Network]"
+
+sv_motd "Server com recursos C⚛smoNetwork\nNão se esqueça de verificar as regras do servidor usando /rules"
+
+sv_ddrace_rules 1
+
+sv_rules_line1 "Proibido fake de outros players, caso seja identificado um admin sera chamado e o ban sera imediato."
+sv_rules_line2 "Proibido qualquer tipo de ofensa contra (a não ser que seja uma brincadeira saudavel). admin/mod/helper. "
+sv_rules_line3 "Proibido qualquer tipo de ofensa/ameaça contra o servidor, se não gostar apenas se retire."
+
+sv_emotional_tees 0
+
+sv_emoticon_delay 0
+
+sv_eye_emote_change_delay 0
+
+sv_chat_delay 0
+
+sv_team_change_delay 0
+
+sv_info_change_delay 0
+
+sv_kill_delay 0
+
+
+===========================================================================================================================================
+add_vote ">>Change Map<" "info"
+add_vote ">Not Change Map<" "info"]
+add_vote "- - - - - - - - - - - - - - - - - - - - - " "info"
+add_vote "- - - - - - - - - - - - - - - - - - - - - " "info"
+add_vote ">Random Map<" "info"
+add_vote ">Random unfishined map<" "info"
+add_vote "- - - - - - - - - - - - - - - - - - - - - -" "info"
+add_vote "- - - - - - - - - - - - - - - - - - - - - -" "info"
+add_vote ">Facil Gores Maps<" "info"
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote "Map: Sandy_Cave" "change_map Sandy_Cave" | 3 PTS
+add_vote "Map: fik4lsi" "change_map fik4lsi" | 1 PTS
+add_vote "Map: Tux4Rookies" "change_map Tux4Rookies" | 2 PTS
+add_vote "Map: Icebreaker" "change_map Icebreaker" | 1 PTS
+add_vote "Map: VampEz1" "change_map VampEz1" | 1 PTS
+add_vote "Map: MikuEasy" "change_map MikuEasy" | 2 PTS
+add_vote "Map: Aip-Gores" "change_map Aip-Gores" | 1 PTS
+add_vote "Map: ChillerDragores25" "change_map ChillerDragores25" | 2 PTS
+add_vote "Map: Kero-Gores2" "change_map Kero-Gores2" | 1 PTS
+add_vote "Map: Q-Aip-Gores" "change_map Q-Aip-Gores" | 2 PTS
+add_vote "Map: Q-Easy1" "change_map Q-Easy1" | 1 PTS
+add_vote "Map: Q-Easy2" "change_map Q-Easy2" | 1 PTS
+add_vote "Map: ShyzoEZ-1" "change_map ShyzoEZ-1" | 1 PTS
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote ">>>>>>>>>>>>>>>>>>>>>Normal Gores Maps<<<<<<<<<<<<<<<<<<<<" "info"
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote "Map: FlipFeat" "change_map FlipFeat" | 4 PTS
+add_vote "Map: N4B" "change_map N4B"| 7 PTS
+add_vote "Map: RyuGore4" "change_map RyuGore4" | 5 PTS
+add_vote "Map: FlipLipp37" "change_map FlipLipp37" | 5 PTS
+add_vote "Map: OldSchool2" "change_map OldSchool2" | 3 PTS
+add_vote "Map: Action" "change_map Action" | 4 PTS
+add_vote "Map: Wats4Forbidden" "change_map Wats4Forbidden" | 3 PTS
+add_vote "Map: RyuGore1" "change_map RyuGore1" | 3 PTS
+add_vote "Map: 4Apfelsaft" "change_map 4Apfelsaft" | 6 PTS
+add_vote "Map: ActionHallas" "change_map ActionHallas" | 5 PTS
+add_vote "Map: Amol1" "change_map Amol1" | 3 PTS
+add_vote "Map: Amol2" "change_map Amol2" | 2 PTS
+add_vote "Map: BHRX-Competition" "change_map BHRX-Competition" | 7 PTS
+add_vote "Map: Bl0od-Dens10" "change_map Bl0od-Dens10" | 8 PTS
+add_vote "Map: Bl0od4Anni" "change_map Bl0od4Anni" | 4 PTS
+add_vote "Map: Bl0od4Isi" "change_map Bl0od4Isi" | 4 PTS
+add_vote "Map: Bl0od4Maxe" "change_map Bl0od4Maxe" | 5 PTS
+add_vote "Map: Bl0od4Miku" "change_map Bl0od4Miku" | 5 PTS
+add_vote "Map: Bl0od4Zant" "change_map Bl0od4Zant" | 6 PTS
+add_vote "Map: Bl0odDens5" "change_map Bl0odDens5" | 4 PTS
+add_vote "Map: Bl0odDens7" "change_map Bl0odDens7" | 4 PTS
+add_vote "Map: Bl0odDens8" "change_map Bl0odDens8" | 1 PTS 
+add_vote "Map: Bl0odFlip" "change_map Bl0odFlip"| 7 PTS
+add_vote "Map: BumM2" "change_map BumM2" | 1 PTS
+add_vote "Map: Childs3e" "change_map Childs3e" | 5 PTS
+add_vote "Map: ChillerDragon4Jessica" "change_map ChillerDragon4Jessica" | 8 PTS
+add_vote "Map: ChillerDragores" "change_map ChillerDragores" | 5 PTS
+add_vote "Map: ChillerDragores10" "change_map ChillerDragores10" | PTS 2
+add_vote "Map: ChillerDragores11" "change_map ChillerDragores11" | 2 PTS
+add_vote "Map: ChillerDragores16" "change_map ChillerDragores16" | 3 PTS
+add_vote "Map: ChillerDragores20" "change_map ChillerDragores20" | 8 PTS
+add_vote "Map: ChillerDragores23" "change_map ChillerDragores23" | 2 PTS
+add_vote "Map: ChillerDragores26" "change_map ChillerDragores26" | 3 PTS
+add_vote "Map: ChillerDragores4" "change_map ChillerDragores4" | 3 PTS
+add_vote "Map: ChillerDragores7" "change_map ChillerDragores7" | 7 PTS
+add_vote "Map: ChingChong" "change_map ChingChong" | 5 PTS
+add_vote "Map: Cooper1" "change_map Cooper1" | 5 PTS
+add_vote "Map: DarkKitty" "change_map DarkKitty" | 7 PTS
+add_vote "Map: DeepMadness" "change_map DeepMadness" | 2 PTS
+add_vote "Map: Destin2" "change_map Destin2" | 3 PTS
+add_vote "Map: Drakengores_1" "change_map Drakengores_1" | 5 PTS
+add_vote "Map: Eden" "change_map Eden" | 6 PTS 
+add_vote "Map: Encore" "change_map Encore" | 3 PTS
+add_vote "Map: Encore2" "change_map Encore2" | 4 PTS
+add_vote "Map: Encore3e" "change_map Encore3e" | 5 PTS
+add_vote "Map: Encore4e" "change_map Encore4e" | 5 PTS
+add_vote "Map: Entitres" "change_map Entitres" | 4 PTS
+add_vote "Map: Escape2" "change_map Escape2" | 9 PTS
+add_vote "Map: Estern1e" "change_map Estern1e" | 6 PTS
+add_vote "Map: Flamingu" "change_map Flamingu" | 5 PTS
+add_vote "Map: FlipChillerDestin" "change_map FlipChillerDestin" | 7 PTS
+add_vote "Map: FlipHoffi" "change_map FlipHoffi" | 6 PTS
+add_vote "Map: FlipLipp" "change_map FlipLipp" | 5 PTS
+add_vote "Map: FlipLipp12" "change_map FlipLipp12" | 7 PTS
+add_vote "Map: FlipLipp13" "change_map FlipLipp13" | 3 PTS
+add_vote "Map: FlipLipp14" "change_map FlipLipp14" | 7 PTS
+add_vote "Map: FlipLipp17" "change_map FlipLipp17" | 3 PTS
+add_vote "Map: FlipLipp19" "change_map FlipLipp19" | 7 PTS
+add_vote "Map: FlipLipp21" "change_map FlipLipp21" | 4 PTS
+add_vote "Map: FlipLipp23" "change_map FlipLipp23" | 7 PTS
+add_vote "Map: FlipLipp25" "change_map FlipLipp25" | 5 PTS
+add_vote "Map: FlipLipp28" "change_map FlipLipp28" | 6 PTS
+add_vote "Map: FlipLipp29" "change_map FlipLipp29" | 8 PTS
+add_vote "Map: FlipLipp2e" "change_map FlipLipp2e" | 4 PTS
+add_vote "Map: FlipLipp31" "change_map FlipLipp31" | 4 PTS
+add_vote "Map: FlipLipp33" "change_map FlipLipp33" | 5 PTS
+add_vote "Map: FlipLipp3e" "change_map FlipLipp3e" | 4 PTS
+add_vote "Map: FlipLipp4" "change_map FlipLipp4" | 2 PTS
+add_vote "Map: FlipLipp5" "change_map FlipLipp5" | 2 PTS
+add_vote "Map: FlipLipp6" "change_map FlipLipp6" | 4 PTS
+add_vote "Map: FlipLipp7" "change_map FlipLipp7" | 5 PTS
+add_vote "Map: FlipLipp8e" "change_map FlipLipp8e" | 5 PTS
+add_vote "Map: FlipLipp9e" "change_map FlipLipp9e" | 5 PTS
+add_vote "Map: Gianth" "change_map Gianth" | 4 PTS
+add_vote "Map: GoldDigga" "change_map GoldDigga" | 5 PTS
+add_vote "Map: Gores-Dream1" "change_map Gores-Dream1" | 5 PTS
+add_vote "Map: GreeniRedFight" "change_map GreeniRedFight" | 3 PTS
+add_vote "Map: Gridwyn2" "change_map Gridwyn2" | 6 PTS
+add_vote "Map: Gridwyn3" "change_map Gridwyn3" | 5 PTS
+add_vote "Map: Gridwyn4" "change_map Gridwyn4" | 7 PTS
+add_vote "Map: Gridwyn5" "change_map Gridwyn5" | 6 PTS
+add_vote "Map: Gridwyn6" "change_map Gridwyn6" | 3 PTS
+add_vote "Map: Gridwyn7" "change_map Gridwyn7" | 6 PTS
+add_vote "Map: Gridwyn8" "change_map Gridwyn8" | 4 PTS
+add_vote "Map: HeyTux" "change_map HeyTux" | 5 PTS
+add_vote "Map: HeyTux2" "change_map HeyTux2" | 4 PTS
+add_vote "Map: HeyTux3" "change_map HeyTux3" | 4 PTS
+add_vote "Map: HiddenIsland" "change_map Hiddenlsland" | 3 PTS
+add_vote "Map: Iim_Climb5" "change_map lm_Climb5" | 3 PTS
+add_vote "Map: Im_Climb_2" "change_map lm_Climb_2" | 4 PTS
+add_vote "Map: InkTerston1" "change_map lnkTerston1" | 10 PTS
+add_vote "Map: Just_Gores7" "change_map Just_Gores7" | 4 PTS
+add_vote "Map: Just_Gores8" "change_map Just_Gores8" | 7 PTS
+add_vote "Map: Just_Gores9" "change_map Just_Gores9" | 4 PTS
+add_vote "Map: Just_TeE3" "change_map Just_TeE3" | 1 PTS
+add_vote "Map: Just_Team1" "change_map Just_Team1" | 7 PTS
+add_vote "Map: Kero-Gores1" "change_map Kero-Gores1" | 3 PTS
+add_vote "Map: Kero-Gores3" "change_map Kero-Gores3" | 5 PTS
+add_vote "Map: Kero-Gores4" "change_map Kero-Gores4" | 3 PTS
+add_vote "Map: Kero-Gores5" "change_map Kero-Gores5" | 5 PTS
+add_vote "Map: Kero-Gores6" "change_map Kero-Gores6" | 3 PTS
+add_vote "Map: Kero-Gores7" "change_map Kero-Gores7" | 4 PTS
+add_vote "Map: Kero4QshaR" "change_map Kero4QshaR" | 3 PTS
+add_vote "Map: Kero4cooper" "change_map Kero4cooper" | 4 PTS
+add_vote "Map: Knight1e" "change_map Knight1e" | 1 PTS
+add_vote "Map: Meliogor" "change_map Meliogor" | 7 PTS
+add_vote "Map: Meliogor2" "change_map Meliogor2" | 4 PTS
+add_vote "Map: Miku4MonkeyDream" "change_map Miku4MonkeyDream" | 8 PTS
+add_vote "Map: MorfeusGrydwin" "change_map MorfeusGrydwin" | 3 PTS
+add_vote "Map: MyStery" "change_map MyStery" | 2 PTS
+add_vote "Map: NareemKero" "change_map NareemKero" | 4 PTS
+add_vote "Map: NealsonSpeedy" "change_map NealsonSpeedy" | 5 PTS
+add_vote "Map: NoxiBoxi" "change_map NoxiBoxi" | 4 PTS
+add_vote "Map: Nyanto4FlameKing" "change_map Nyanto4FlameKing" | 5 PTS
+add_vote "Map: Nyanto4Graves" "change_map Nyanto4Graves" | 7 PTS
+add_vote "Map: Nyanto4Mamax" "change_map Nyanto4Mamax" | 6 PTS
+add_vote "Map: NyantoFY" "change_map NyantoFY" | 6 PTS
+add_vote "Map: OldSchool2" "change_map OldSchool2" | 3 PTS
+add_vote "Map: Panik-Gores" "change_map Panik-Gores" | 4 PTS
+add_vote "Map: Panik4Shero" "change_map Panik4Shero" | 3 PTS
+add_vote "Map: PatrickStar" "change_map PatrickStar" | 3 PTS
+add_vote "Map: PeaceDeath" "change_map PeaceDeath" | 5 PTS
+add_vote "Map: Pop" "change_map Pop" | 2 PTS
+add_vote "Map: Pop2" "change_map Pop2" | 5 PTS
+add_vote "Map: Pop3e" "change_map Pop3e" | 7 PTS
+add_vote "Map: Protokol1" "change_map Protokol1" | 3 PTS
+add_vote "Map: Pup1e" "change_map Pup1e" | 3 PTS
+add_vote "Map: Pup2" "change_map "Pup2" | 3 PTS
+add_vote "Map: Pup3" "change_map "Pup3" | 4 PTS
+add_vote "Map: Pup4" "change_map "Pup4" | 2 PTS
+add_vote "Map: Pup5e" "chnge_map Pup5e" | 5 PTS
+add_vote "Map: PupRed1e" "change_map PupRed1e" | 6 PTS
+add_vote "Map: Q-Adventure" "change_map Q-Adventure" | 4 PTS
+add_vote "Map: Q-Aip-Gores2" "change_map Q-Aip-Gores2" | 4 PTS
+add_vote "Map: Q-Aip-Gores3" "change_map Q-Aip-Gores3" | 5 PTS
+add_vote "Map: Q-Aip-Gores4" "change_map Q-Aip-Gores4" | 5 PTS
+add_vote "Map: Q-Aip-Gores5" "change_map Q-Aip-Gores5" | 6 PTS
+add_vote "Map: Q-Aip-Gores6" "change_map Q-Aip-Gores6" | 5 PTS
+add_vote "Map: Q-Aip-Gores7" "change_map Q-Aip-Gores7" | 5 PTS
+add_vote "Map: Q-Aip-Gores8" "change_map Q-Aip-Gores8" | 2 PTS
+add_vote "Map: Q-Gores3" "change_map Q-Gores3" | 3 PTS
+add_vote "Map: Q-KoG-Portal" "change_map Q-KoG-Portal" | 8 PTS
+add_vote "Map: Q-Story" "change_map Q-Story" | 8 PTS
+add_vote "Map: Q-move" "change_map Q-move" | 7 PTS
+add_vote "Map: Q-tele" "change_map Q-tele" | 7 PTS
+add_vote "Map: QF-Competition" "change_map QF-Competition" | 6 PTS
+add_vote "Map: QF-Gores" "change_map QF-Gores" | 7 PTS
+add_vote "Map: QM-Gores" "change_map QM-Gores" | 8 PTS
+add_vote "Map: RaiNy4Nealson" "change_map RaiNy4Nealson" | 1 PTS
+add_vote "Map: Rubnitos" "change_map Rubnitos" | 6 PTS
+add_vote "Map: RyuGore1" "change_map RyuGore1" | 3 PTS
+add_vote "Map: Shadow_Gores" "change_map Shadow_Gores" | 3 PTS
+add_vote "Map: Sheldor" "change_map Sheldor" | 4 PTS
+add_vote "Map: Shyzo4Cecily" "change_map Shyzo4Cecily" | 3 PTS
+add_vote "Map: SpaceJump" "change_map SpaceJump" | 5 PTS
+add_vote "Map: Springlobe" "change_map Springlobe" | 9 PTS
+add_vote "Map: Terston3" "change_map "Terston3" | 6 PTS
+add_vote "Map: Terston4Ink" "change_map "Terston4lnk" | 10 PTS
+add_vote "Map: The_Pyra" "change_map "The_Pyra" | 5 PTS
+add_vote "Map: Vampyrali2" "change_map Vampyrali2" | 3 PTS
+add_vote "Map: Vampyrali3" "change_map Vampyrali3" | 3 PTS
+add_vote "Map: Waschlappen" "change_map Waschlappen" | 7 PTS
+add_vote "Map: Wats4Forbidden" "change_map Wats4Forbidden" | 3 PTS
+add_vote "Map: XmasAdventure" "change_map XmasAdventure" | 9 PTS
+add_vote "Map: Yo1" "change_map Yo1" | 3 PTS
+add_vote "Map: Yo11" "change_map Yo11" | 7 PTS
+add_vote "Map: Yo13" "change_map Yo13" | 6 PTS
+add_vote "Map: Yo2" "change_map Yo2" | 8 PTS
+add_vote "Map: Yo3" "change_map Yo3" | 3 PTS
+add_vote "Map: Yo4" "change_map Yo4" | 3 PTS
+add_vote "Map: Yo4Fast" "change_map Yo4Fast" | 5 PTS
+add_vote "Map: Yo4Lama" "change_map Yo4Lama" | 7 PTS
+add_vote "Map: Yo4WojMen" "change_map Yo4WojMen" | 2 PTS
+add_vote "Map: Yo5" "change_map Yo5" | 5 PTS
+add_vote "Map: Yo7" "change_map Yo7" | 6 PTS
+add_vote "Map: Yo8" "change_map Yo8" | 5 PTS
+add_vote "Map: Yo9" "change_map Yo9" | 6 PTS
+add_vote "Map: YoAirm4x" "change_map YoAirm4x" | 3 PTS
+add_vote "Map: YoJustTeE" "change_map YoJustTeE" | 6 PTS
+add_vote "Map: YoJustTee2" "change_map YoJustTee2" | 9 PTS
+add_vote "Map: Zerox4Busted" "change_map Zerox4Busted" | 7 PTS
+add_vote "Map: Zerox4Nox" "change_map Zerox4Nox" | 4 PTS
+add_vote "Map: bzw4miep" "change_map bzw4miep" | 6 PTS
+add_vote "Map: fik4Kicker" "change_map fik4Kicker" | 2 PTS
+add_vote "Map: fik4snail" "change_map fik4snail" | 2 PTS
+add_vote "Map: fikmesan" "change_map fikmesan" | 3 PTS
+add_vote "Map: fokkonaut" "change_map fokkonaut" | 3 PTS
+add_vote "Map: meew1" "change_map meew1" | 6 PTS
+add_vote "Map: meew2" "change_map meew2" | 6 PTS
+add_vote "Map: xRyperion" "change_map xRyperion" | 4 PTS
+add_vote "Map: xRyperionGecko" "change_map xRyperiongecko | 7 PTS
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote ">Hard Gores Maps<" "info"
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote "Map: AipFlip" "change_map AipFlip" | 10 PTS
+add_vote "Map: CkisFlip" "change_map CkisFlip" | 13 PTS
+add_vote "Map: bzw4Treefly" "change_map bzw4Treefly" | 14 PTS
+add_vote "Map: OldSchool3" "change_map OldSchool3" | 15 PTS
+add_vote "Map: NoxFlip" "change_map NoxFlip" | 15 PTS
+add_vote "Map: Aip-Hardcores" "change_map Aip-Hardcores" | 15 PTS
+add_vote "Map: Beyblade" "change_map Beyblade" | 13 PTS
+add_vote "Map: Bl0odWaschi" "change_map Bl0odWaschi" | 20 PTS
+add_vote "Map: ChillerDragores12" "change_map ChillerDragores12" | 12 PTS
+add_vote "Map: ChillerDragores18" "change_map ChillerDragores18" | 20 PTS
+add_vote "Map: ChillerDragores24" "change_map ChillerDragores24" | 12 PTS
+add_vote "Map: CkiS_4_CLow" "change_map CkiS_4_Clow" | 11 PTS
+add_vote "Map: CkiS_4_Livos" "change_map CkiS_4_Livos" | 16 PTS
+add_vote "Map: CkiS_4_Samu" "change_map CkiS_4_Samu" | 16 PTS
+add_vote "Map: CkiS_4_effect" "change_map CkiS_4_effect" | 18 PTS
+add_vote "Map: Cooldown_by_Shyzo" "change_map Cooldown_by_Shyzo" | 7 PTS
+add_vote "Map: FlipBzw" "change_map FlipBzw" | 15 PTS
+add_vote "Map: FlipDragonYo" "change_map FlipDragonYo" | 10 PTS
+add_vote "Map: FlipLipp10" "change_map FlipLipp10" | 13 PTS
+add_vote "Map: FlipLipp11" "change_map FlipLipp11" | 12 PTS
+add_vote "Map: FlipLipp15" "change_map FlipLipp15" | 10 PTS
+add_vote "Map: FlipLipp16" "change_map FlipLipp16" | 13 PTS
+add_vote "Map: FlipLipp2" "change_map FlipLipp2" | 12 PTS
+add_vote "Map: FlipLipp26" "change_map FlipLipp26" | 18 PTS
+add_vote "Map: FlipLipp27" "change_map FlipLipp27" | 15 PTS
+add_vote "Map: FlipLipp32" "change_map FlipLipp32" | 14 PTS
+add_vote "Map: FlipLipp34" "change_map FlipLipp34" | 11 PTS
+add_vote "Map: FlipNeo4Chile" "change_map FlipNeo4Chile" | 12 PTS
+add_vote "Map: Henesys" "change_map Henesys" | 12 PTS
+add_vote "Map: JustTeE4JustNoob" "change_map JustTeE4JustNoob" | 15 PTS
+add_vote "Map: Miku4Lama" "change_map Miku4Lama" | 13 PTS
+add_vote "Map: MikuGores" "change_map MikuGores" | 8 PTS
+add_vote "Map: NealsonCkiS1" "change_map NealsonCkiS1" | 20 PTS
+add_vote "Map: Nox1" "change_map Nox1" | 13 PTS
+add_vote "Map: Nox4Monkey" "change_map Nox4Monkey" | 12 PTS
+add_vote "Map: NyantoFT" "change_map NyantoFT" | 14 PTS
+add_vote "Map: Oldschool" "change_map Oldschool" | 16 PTS
+add_vote "Map: Paradise_Island" "change_map Paradise_lsland" | 13 PTS
+add_vote "Map: Q-KoG-1" "change_map Q-KoG-1" | 10 PTS
+add_vote "Map: Q-KoG-2" "change_map Q-KoG-2" | 12 PTS
+add_vote "Map: Q-KoG-3" "change_map Q-KoG-3" | 12 PTS
+add_vote "Map: Q-KoG-4" "change_map Q-KoG-4" | 13 PTS
+add_vote "Map: Q-KoG-5" "change_map Q-KoG-5" | 13 PTS
+add_vote "Map: RaiMee" "change_map RaiMee" | 15 PTS
+add_vote "Map: RaiNy4Ink" "change_map RaiNy4lnk" | 11 PTS
+add_vote "Map: RaiNyMore" "change_map RaiNyMore" | 10 PTS
+add_vote "Map: RaiNyOD" "change_map RaiNyOD" | 9 PTS
+add_vote "Map: RainbowRoads" "change_map RainbowRoads" | 9 PTS
+add_vote "Map: RyuGore2" "change_map RyuGore2" | 10 PTS
+add_vote "Map: Shyzo4Sasukey" "change_map Shyzo4Sasukey" | 8 PTS
+add_vote "Map: Simply_Nine" "change_map Simply_Nine" | 8 PTS
+add_vote "Map: Terston1" "change_map Terston1" | 7 PTS
+add_vote "Map: Terston2" "change_map Terston2" | 12 PTS
+add_vote "Map: TomTom3" "change_map TomTom3" | 15 PTS
+add_vote "Map: UNDR" "change_map UNDR" | 7 PTS
+add_vote "Map: Yo10" "change_map Yo10" | 10 PTS
+add_vote "Map: Yo6" "change_map Yo6" | 15 PTS
+add_vote "Map: YoCkiS5" "change_map YoCkiS5" | 14 PTS
+add_vote "Map: YoCkiS4" "change_map YoCkiS4" | 16 PTS
+add_vote "Map: bzw1" "change_map bzw1" | 12 PTS
+add_vote "Map: bzw3" "change_map bzw3" | 14 PTS
+add_vote "Map: meew3" "change_map meew3" | 8 PTS
+add_vote "Map: meew4" "change_map meew4" | 9 PTS
+add_vote "Map: samo-FWYS1e" "change_map samo-FWYS1e" | 10 PTS
+add_vote "Map: samo-FWYS1e" "change_map samo-FWYS1e" | 10 PTS
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote ">Insane Gores Maps<" "info"
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote "- - - - - - - - - - - - - - - - - - -" "info"
+add_vote "Map: DeadlyPath" "change_map DeadlyPath" | 16 PTS
+add_vote "Map: FlipLipp35" "change_map FlipLipp35" | 18 PTS
+add_vote "Map: RyuGore3" "change_map RyuGore3" | 16 PTS
+add_vote "Map: Tomahawk" "change_map Tomahawk" | 17 PTS
+add_vote "Map: Shyzo4TS" "change_map Shyzo4TS" | 18 PTS
+add_vote "Map: CkiS1" "change_map CkiS1" | 18 PTS
+add_vote "Map: CkiS2" "change_map CkiS2" | 19 PTS
+add_vote "Map: CkiSNox1" "change_map CkiSNox1" | 18 PTS
+add_vote "Map: CkiS_4_MonkeyDream" "change_map "CkiS_4_MonkeyDream" | 16 PTS
+add_vote "Map: CkisTerston1" "change_map CkisTerston1" | 17 PTS
+add_vote "Map: FlipLipp30" "change_map FlipLipp30" | 18 PTS
+add_vote "Map: HeatUp_by_Shyzo" "change_map HeatUp_by_Shyzo" | 18 PTS
+add_vote "Map: Impossible" "change_map Impossible" | 20 PTS
+add_vote "Map: LamaBro" "change_map LamaBro" | 17 PTS
+add_vote "Map: NealsonCkiS5" "change_map NealsonCkiS5" | 20 PTS
+add_vote "Map: NealsonCkiS8" "change_map NealsonCkiS8" | 20 PTS
+add_vote "Map: Nox2" "change_map Nox2" | 17 PTS
+add_vote "Map: RingofGores" "change_map RingofGores" | 19 PTS
+add_vote "Map: SUPSANE" "change_map SUPSANE" | 18 PTS
+add_vote "Map: Shyzo4TheCrew" "change_map Shyzo4TheCrew" | 17 PTS
+add_vote "Map: SkyrelOne" "change_map SkyrelOne" | 9 PTS
+add_vote "Map: TomTom" "change_map TomTom" | 18 PTS
+add_vote "Map: TomTom2" "change_map TomTom2" | 16 PTS
+add_vote "Map: WarmUp_by_Shyzo" "change_map WarmUp_by_Shyzo" | 18 PTS
+add_vote "Map: Yo12" "change_map Yo12" | 18 PTS
+add_vote "Map: Yo4Lama2" "change_map Yo4Lama2" | 17 PTS
+add_vote "Map: Yuslo4Nizzza" "change_map Yuslo4Nizzza" | 17 PTS
+add_vote "Map: Yuslo4Shoyyy" "change_map Yuslo4Shoyyy" | 17 PTS
+add_vote "Map: YusloCkiS1" "change_map YusloCkiS1" | 17 PTS
+add_vote "Map: bzw2" "change_map bzw2" | 17 PTS
+add_vote "Map: featuristic" "change_map featuristic" | 16 PTS
+============================================================================================================================================
+access_level left 2
+access_level right 2
+access_level up 2
+access_level down 2
+access_level super 2
+access_level unsuper 2
+access_level tele 2
+access_level totele 2
+access_level totelecp 2
+access_level logout 2
+access_level ninja 2
+access_level grenade 2
+access_level shotgun 2
+access_level rifle 2
+access_level weapons 2
+access_level unweapons 2
+access_level unrifle 2
+access_level unshotgun 2
+access_level ungrenade 2
+access_level unsolo 2
+access_level undeep 2
+access_level status 2
+
+# commands for moderators only
+access_level ban 1
+access_level unban 1
+access_level ban_range 1
+access_level unban_range 1
+access_level unban_all 1
+access_level bans 1
+access_level bans_save 1
+access_level kick 1
+access_level force_vote 1
+access_level moderate 1
+============================================================================================================================================
+# Broadcast to display for players without DDNet client
+sv_client_suggestion "Obtenha o cliente DDNet do DDNet.tw para usar todos os recursos no DDNet!"
+
+# Broadcast to display for players with a very old version of DDNet client
+sv_client_suggestion_old "Seu cliente DDNet é antigo, atualize-o no DDNet.tw!"
+
+# Broadcast to display for players with known botting client
+sv_client_suggestion_bot "Seu cliente tem bots e pode ser controlado remotamente! \ NPor favor, use outro cliente como o cliente DDNet do DDNet.tw"
+============================================================================================================================================
